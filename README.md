@@ -11,7 +11,7 @@ header- available in repo named header.txt
 nodes template- the variables need to be replaced with values and appended to the file after header
          
          
-                 <node id="n~NodeNum~">
+      <node id="n~NodeNum~">
       <data key="d3"><![CDATA[~NodeName~]]></data>
       <data key="d6">
         <y:SVGNode>
@@ -53,5 +53,10 @@ edge template - the variables need to be replaced with values and appended to th
         </y:PolyLineEdge>
       </data>
     </edge>
+    
+    
+     vars - ~id~ incremented for every edge EX:e1,e2...
+            ~Nodeid~ is user given input, must be from one of the above nodes EX: n1,n2...
+            ~imageid~ is selected from footer based in type
 
 footer- available in repo named footer.txt
