@@ -7,7 +7,11 @@ objective - to construct items05.graphml in repo
 
 header- available in repo named header.txt
         
-        <node id="n~NodeNum~">
+
+nodes template- the variables need to be replaced with values and appended to the file after header
+         
+         
+                 <node id="n~NodeNum~">
       <data key="d3"><![CDATA[~NodeName~]]></data>
       <data key="d6">
         <y:SVGNode>
@@ -31,8 +35,6 @@ header- available in repo named header.txt
     </node>
 
 
-nodes template- the variables need to be replaced with values and appended to the file after header
-         			
      vars - ~NodeNum~ incremented for every node EX:n1,n2...
             ~NodeName~ is user given input EX: Router,Switch...
             ~imageid~ is selected from footer based in type  
