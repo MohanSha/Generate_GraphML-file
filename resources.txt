@@ -1,0 +1,6 @@
+Resource id="0" MPLS Cloud
+Resource id="1" switch
+Resource id="2" router
+Resource id="3" VLAN network
+Resource id="4" internet
+Resource id="5" sever

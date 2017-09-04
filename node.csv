@@ -1,0 +1,13 @@
+MPLS Cloud,0
+BLR_Router,2
+CHN_Router,2
+MUM_Router,2
+HYD_Router,2
+BLR_Core_Switch,1
+Core_Switch,1
+MUM_Core_Switch,1
+General VLAN,3
+Mastering VLAN,3
+Server LAN,3
+DR_Servers,5
+DC_Servers,5
